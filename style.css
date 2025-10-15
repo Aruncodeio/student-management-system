@@ -1,0 +1,114 @@
+body {
+	font-family: 'Segoe UI',sans-serif;
+	background: #f0f4f8;
+	margin: 0;
+	padding: 0;
+	color: #333;
+}
+
+header {
+	background: #0078d7;
+	color: white;
+	text-align: center;
+	padding: 20px 0;
+	box-shadow: 0 2px 6x rgba(0, 0, 0, 0.2);
+}
+
+.container {
+	width: 90x;
+	max-width: 600px;
+	margin: 30px auto;
+	background: white;
+	padding: 25px;
+	border-radius: 12px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1,h2 {
+	text-align: center;
+}
+
+.menu {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+	margin-top: 25px;
+}
+.menu a {
+	text-decoration: none;
+    background: #0078d7;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+	background: #005bb5;
+
+}
+
+from {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+input {
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+}
+
+button {
+	background: #0078d7;
+	color: white;
+	border:none;
+	padding: 10px;
+	border-radius: 6px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+button:hover {
+	background: #005bb5;
+}
+
+.delete-btn {
+	background: #e81123;
+}
+
+.delete-btn:hover {
+	background: #c50f1f;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th,td {
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: center;
+}
+
+th {
+	background: #0078d7;
+	color: white;
+}
+
+.back {
+	display: inline-block;
+	margin-top: 15px;
+	text-decoration: none;
+	color: #0078d7;
+}
+
+footer {
+	text-align: center;
+	background: #0078d7;
+	color: white;
+	padding: 10px;
+	margin-top: 40px;
+}
